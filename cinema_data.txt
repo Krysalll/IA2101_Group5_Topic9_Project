@@ -1,0 +1,451 @@
+{
+  "movies": [
+    {
+      "movie_id": "M00001",
+      "title": "Mai (Việt Nam)",
+      "genre": "Tâm lý / Tình cảm",
+      "duration_minutes": 131,
+      "release_year": 2024,
+      "showtime": "09:30 - 30/10/2026",
+      "ticket_price": 75000,
+      "status": "Showing",
+      "total_seats": 80
+    },
+    {
+      "movie_id": "M00002",
+      "title": "Bố già (Việt Nam)",
+      "genre": "Tâm lý / Gia đình",
+      "duration_minutes": 128,
+      "release_year": 2021,
+      "showtime": "10:00 - 30/10/2026",
+      "ticket_price": 75000,
+      "status": "Showing",
+      "total_seats": 100
+    },
+    {
+      "movie_id": "M00003",
+      "title": "Nhà bà Nữ (Việt Nam)",
+      "genre": "Tâm lý / Gia đình",
+      "duration_minutes": 103,
+      "release_year": 2023,
+      "showtime": "09:30 - 30/10/2026",
+      "ticket_price": 75000,
+      "status": "Showing",
+      "total_seats": 80
+    },
+    {
+      "movie_id": "M00004",
+      "title": "Lật mặt 7: Một điều ước (Việt Nam)",
+      "genre": "Tâm lý / Gia đình",
+      "duration_minutes": 138,
+      "release_year": 2024,
+      "showtime": "10:00 - 30/10/2026",
+      "ticket_price": 80000,
+      "status": "Showing",
+      "total_seats": 120
+    },
+    {
+      "movie_id": "M00005",
+      "title": "Mắt biếc (Việt Nam)",
+      "genre": "Tình cảm",
+      "duration_minutes": 117,
+      "release_year": 2019,
+      "showtime": "09:30 - 30/10/2026",
+      "ticket_price": 70000,
+      "status": "Showing",
+      "total_seats": 80
+    },
+    {
+      "movie_id": "M00006",
+      "title": "Avengers: Endgame (Mỹ)",
+      "genre": "Hành động / Khoa học viễn tưởng",
+      "duration_minutes": 181,
+      "release_year": 2019,
+      "showtime": "10:00 - 30/10/2026",
+      "ticket_price": 100000,
+      "status": "Showing",
+      "total_seats": 120
+    },
+    {
+      "movie_id": "M00007",
+      "title": "Inception (Mỹ)",
+      "genre": "Khoa học viễn tưởng / Hành động",
+      "duration_minutes": 148,
+      "release_year": 2010,
+      "showtime": "09:30 - 30/10/2026",
+      "ticket_price": 90000,
+      "status": "Showing",
+      "total_seats": 100
+    },
+    {
+      "movie_id": "M00008",
+      "title": "Titanic (Mỹ)",
+      "genre": "Tình cảm / Chính kịch",
+      "duration_minutes": 194,
+      "release_year": 1997,
+      "showtime": "10:00 - 30/10/2026",
+      "ticket_price": 85000,
+      "status": "Showing",
+      "total_seats": 120
+    },
+    {
+      "movie_id": "M00009",
+      "title": "Top Gun: Maverick (Mỹ)",
+      "genre": "Hành động",
+      "duration_minutes": 130,
+      "release_year": 2022,
+      "showtime": "09:30 - 30/10/2026",
+      "ticket_price": 95000,
+      "status": "Showing",
+      "total_seats": 100
+    },
+    {
+      "movie_id": "M00010",
+      "title": "Inside Out (Mỹ)",
+      "genre": "Hoạt hình / Gia đình",
+      "duration_minutes": 95,
+      "release_year": 2015,
+      "showtime": "10:00 - 30/10/2026",
+      "ticket_price": 80000,
+      "status": "Showing",
+      "total_seats": 80
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "T00001",
+      "movie_id": "M00006",
+      "seat_number": "A01",
+      "purchase_date": "2026-10-28",
+      "status": "Booked",
+      "price_paid": 100000,
+      "showtime_id": "S0602"
+    },
+    {
+      "ticket_id": "T00002",
+      "movie_id": "M00006",
+      "seat_number": "A03",
+      "purchase_date": "2026-10-28",
+      "status": "Booked",
+      "price_paid": 100000,
+      "showtime_id": "S0602"
+    }
+  ],
+  "showtimes": [
+    {
+      "showtime_id": "S0101",
+      "movie_id": "M00001",
+      "starts_at": "09:30 - 30/10/2026",
+      "room": "Phòng 01",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 75000
+    },
+    {
+      "showtime_id": "S0102",
+      "movie_id": "M00001",
+      "starts_at": "13:30 - 30/10/2026",
+      "room": "Phòng 01",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 75000
+    },
+    {
+      "showtime_id": "S0103",
+      "movie_id": "M00001",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 01",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0104",
+      "movie_id": "M00001",
+      "starts_at": "22:00 - 30/10/2026",
+      "room": "Phòng 01",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0201",
+      "movie_id": "M00002",
+      "starts_at": "10:00 - 30/10/2026",
+      "room": "Phòng 02",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 75000
+    },
+    {
+      "showtime_id": "S0202",
+      "movie_id": "M00002",
+      "starts_at": "14:00 - 30/10/2026",
+      "room": "Phòng 02",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 75000
+    },
+    {
+      "showtime_id": "S0203",
+      "movie_id": "M00002",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 02",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0301",
+      "movie_id": "M00003",
+      "starts_at": "09:30 - 30/10/2026",
+      "room": "Phòng 03",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 75000
+    },
+    {
+      "showtime_id": "S0302",
+      "movie_id": "M00003",
+      "starts_at": "13:30 - 30/10/2026",
+      "room": "Phòng 03",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 75000
+    },
+    {
+      "showtime_id": "S0303",
+      "movie_id": "M00003",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 03",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0304",
+      "movie_id": "M00003",
+      "starts_at": "22:00 - 30/10/2026",
+      "room": "Phòng 03",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0401",
+      "movie_id": "M00004",
+      "starts_at": "10:00 - 30/10/2026",
+      "room": "Phòng 04",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 80000
+    },
+    {
+      "showtime_id": "S0402",
+      "movie_id": "M00004",
+      "starts_at": "14:00 - 30/10/2026",
+      "room": "Phòng 04",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 80000
+    },
+    {
+      "showtime_id": "S0403",
+      "movie_id": "M00004",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 04",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 90000
+    },
+    {
+      "showtime_id": "S0501",
+      "movie_id": "M00005",
+      "starts_at": "09:30 - 30/10/2026",
+      "room": "Phòng 05",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 70000
+    },
+    {
+      "showtime_id": "S0502",
+      "movie_id": "M00005",
+      "starts_at": "13:30 - 30/10/2026",
+      "room": "Phòng 05",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 70000
+    },
+    {
+      "showtime_id": "S0503",
+      "movie_id": "M00005",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 05",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 80000
+    },
+    {
+      "showtime_id": "S0504",
+      "movie_id": "M00005",
+      "starts_at": "22:00 - 30/10/2026",
+      "room": "Phòng 05",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 80000
+    },
+    {
+      "showtime_id": "S0601",
+      "movie_id": "M00006",
+      "starts_at": "10:00 - 30/10/2026",
+      "room": "Phòng 06",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 100000
+    },
+    {
+      "showtime_id": "S0602",
+      "movie_id": "M00006",
+      "starts_at": "14:00 - 30/10/2026",
+      "room": "Phòng 06",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 100000
+    },
+    {
+      "showtime_id": "S0603",
+      "movie_id": "M00006",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 06",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 110000
+    },
+    {
+      "showtime_id": "S0701",
+      "movie_id": "M00007",
+      "starts_at": "09:30 - 30/10/2026",
+      "room": "Phòng 07",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 90000
+    },
+    {
+      "showtime_id": "S0702",
+      "movie_id": "M00007",
+      "starts_at": "13:30 - 30/10/2026",
+      "room": "Phòng 07",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 90000
+    },
+    {
+      "showtime_id": "S0703",
+      "movie_id": "M00007",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 07",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 100000
+    },
+    {
+      "showtime_id": "S0704",
+      "movie_id": "M00007",
+      "starts_at": "22:00 - 30/10/2026",
+      "room": "Phòng 07",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 100000
+    },
+    {
+      "showtime_id": "S0801",
+      "movie_id": "M00008",
+      "starts_at": "10:00 - 30/10/2026",
+      "room": "Phòng 08",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0802",
+      "movie_id": "M00008",
+      "starts_at": "14:00 - 30/10/2026",
+      "room": "Phòng 08",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 85000
+    },
+    {
+      "showtime_id": "S0803",
+      "movie_id": "M00008",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 08",
+      "rows": 12,
+      "seats_per_row": 10,
+      "ticket_price": 95000
+    },
+    {
+      "showtime_id": "S0901",
+      "movie_id": "M00009",
+      "starts_at": "09:30 - 30/10/2026",
+      "room": "Phòng 09",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 95000
+    },
+    {
+      "showtime_id": "S0902",
+      "movie_id": "M00009",
+      "starts_at": "13:30 - 30/10/2026",
+      "room": "Phòng 09",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 95000
+    },
+    {
+      "showtime_id": "S0903",
+      "movie_id": "M00009",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 09",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 105000
+    },
+    {
+      "showtime_id": "S0904",
+      "movie_id": "M00009",
+      "starts_at": "22:00 - 30/10/2026",
+      "room": "Phòng 09",
+      "rows": 10,
+      "seats_per_row": 10,
+      "ticket_price": 105000
+    },
+    {
+      "showtime_id": "S1001",
+      "movie_id": "M00010",
+      "starts_at": "10:00 - 30/10/2026",
+      "room": "Phòng 10",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 80000
+    },
+    {
+      "showtime_id": "S1002",
+      "movie_id": "M00010",
+      "starts_at": "14:00 - 30/10/2026",
+      "room": "Phòng 10",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 80000
+    },
+    {
+      "showtime_id": "S1003",
+      "movie_id": "M00010",
+      "starts_at": "18:30 - 30/10/2026",
+      "room": "Phòng 10",
+      "rows": 8,
+      "seats_per_row": 10,
+      "ticket_price": 90000
+    }
+  ]
+}
